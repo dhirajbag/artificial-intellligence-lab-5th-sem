@@ -1,0 +1,38 @@
+10
+0 1 0 0 0 0 0 0 0 0
+1 0 1 0 0 1 0 0 0 0
+0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 1 0 0 0 0
+0 1 0 0 1 0 1 0 1 0
+0 0 0 0 0 1 0 1 0 0
+0 0 0 1 0 0 1 0 0 1
+0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 1 0 0
+1
+10
+____________________________________
+Input data is given above this line
+
+Input Format given below:
+____________________________________
+n
+line_1
+line_2
+...
+line_n
+source
+destination
+____________________________________
+
+Description:
+
+Input is for an unweighted directed graph G
+
+n is the number of vertices.
+
+Then n lines follow, which represents the (n x n) adjacency matrix.
+
+source is the source vertex's number (1 based numbering) and 1 <= source <= n
+destination is the destination vertex's number (1 based numbering)
+_____________________________________________________________________

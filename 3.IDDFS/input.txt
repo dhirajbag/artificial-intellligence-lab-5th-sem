@@ -1,0 +1,41 @@
+12
+a b c d e f G h p q r S
+0 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 0 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0 1 0
+0 0 1 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 1 0 0 0
+12
+____________________________________
+Input data is given above this line
+
+Input Format given below:
+____________________________________
+n
+line_of_identifiers
+line_1
+line_2
+...
+line_n
+src (in 1 based numbering)
+____________________________________
+
+Description:
+
+Input is for an unweighted directed graph
+
+n : number of vertices
+
+line_of_identifiers : space separated identifiers for each vertex 
+
+Then n lines follow, which represents the (n x n) adjacency matrix.
+
+src : source vertex, form where search starts (1 based numbering)
+_____________________________________________________________________
